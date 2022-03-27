@@ -5,24 +5,51 @@ body {
     font-family: 'Oxygen', sans-serif;
 }
 
-#header-nav {
+#headerNav {
     background-color: #EBD671;
     border-radius: 0;
     border: 0;
+    padding-bottom: 0;
 }
 
 .navbar-brand a:focus, .navbar-brand a:hover {
     text-decoration: none;
 }
 
-.navbar-toggler-icon {
-    color: black;
+.card {
+    margin: 32px 0;
 }
 
 .card-body {
     background-color: #85C88A;
 }
 
-.navbar-nav {
-    background-color: #F56D91;
+#navMainContainer {
+    padding: 0px;
+}
+
+#navHeaderTopRow {
+    width: 100%;
+    padding: 8px 16px;
+}
+
+#navbarNav {
+    width: 100%;
+    background-color: #C74B50;
+}
+
+#toggleButton {
+    float: right;
+}
+
+#contentTitle {
+    padding: 32px 0;
+}
+
+.nav-item {
+    border-bottom: 2px solid #712B75;
+}
+
+.nav-item:focus {   
+    background-color: #712B75;
 }

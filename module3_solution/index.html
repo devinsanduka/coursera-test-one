@@ -17,13 +17,31 @@
   </head>
   <body>
     <header>
-      <nav id="header-nav" class="navbar navbar-light">
-        <div class="container">
-          <a class="navbar-brand" href="index.html"><h1>Food, LLC</h1></a>
-          <button class="navbar-toggler d-block d-sm-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse d-sm-none d-md-none d-lg-none d-xl-none d-xxl-none" id="navbarNav">
+      <nav id="headerNav" class="navbar navbar-light">
+        <div class="container" id="navMainContainer">
+          <div class="row" id="navHeaderTopRow">
+            <span class="col">
+              <a class="navbar-brand" href="index.html"><h1>Food, LLC</h1></a>
+            </span>
+            <span class="col">
+              <button
+                id="toggleButton"
+                class="navbar-toggler d-block d-sm-none"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </span>
+          </div>
+          <div
+            class="collapse navbar-collapse d-sm-none d-md-none d-lg-none d-xl-none d-xxl-none"
+            id="navbarNav"
+          >
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link" href="#chicken-card">Chicken</a>
@@ -41,9 +59,8 @@
     </header>
 
     <div class="container-fluid">
-      <h1 class="text-center">Our Menu</h1>
-
-      <div class="card" id="chicken-card">
+      <h1 class="text-center" id="contentTitle">Our Menu</h1>
+      <div class="card col-xs-12" id="chicken-card">
         <div class="card-body">
           <h5 class="card-title">Chicken</h5>
           <p class="card-text">
@@ -102,7 +119,7 @@
         </div>
       </div>
 
-      <div class="card" id="beef-card">
+      <div class="card col-xs-12" id="beef-card">
         <div class="card-body">
           <h5 class="card-title">Beef</h5>
           <p class="card-text">
@@ -161,7 +178,7 @@
         </div>
       </div>
 
-      <div class="card" id="sushi-card">
+      <div class="card col-xs-12" id="sushi-card">
         <div class="card-body">
           <h5 class="card-title">Sushi</h5>
           <p class="card-text">
