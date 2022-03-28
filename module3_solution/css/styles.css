@@ -42,6 +42,10 @@ body {
     background-color: #712B75;
 }
 
+.nav-link {
+    text-align: center;
+}
+
 #contentTitle {
     padding: 32px 0;
 }
